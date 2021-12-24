@@ -1,7 +1,7 @@
 const parser = require('./parser.js');
 const codeWriter = require('./codeWriter.js');
 
-let fileInput = process.argv[2] || '/home/dobromir/Downloads/nand2tetris/projects/07/StackArithmetic/SimpleAdd/SimpleAdd.vm';
+let fileInput = process.argv[2] || 'exp.vm';
 const fileOutput = fileInput.substring(0, fileInput.lastIndexOf('.')) + '.asm';
 
 parser.readFile(fileInput).then(() => {

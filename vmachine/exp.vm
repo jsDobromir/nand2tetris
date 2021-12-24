@@ -1,0 +1,8 @@
+// hello this is test file
+         
+            // comment
+push constant 20
+push constant 10
+and
+push constant 50
+not
